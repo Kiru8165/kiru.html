@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Trends</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--My css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Add the script tag here or at the end of the body -->
+    <script>
+        function showNavbar() {
+            document.querySelector('.side-navbar').style.display = 'block';
+        }
+
+        function closeNavbar() {
+            document.querySelector('.side-navbar').style.display = 'none';
+        }
+    </script>
+
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Aura Trends</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+
+            <div class="products-box">
+            <img src="https://uathayam.in/cdn/shop/files/LP_4612_415b5c60-1fe3-4ccd-91ac-870cc23a4a81_1800x1800.jpg?v=1713166028/?whiteshirt" alt=""
+            height="200";
+            width="200";>
+            <p>White Shirt</p>
+        </div>
+
+        <div class="products-box">
+            <img src="https://mridulmadhok.in/cdn/shop/products/image_3e2195a9-402b-437d-8e32-a408d879f8af.jpg?v=1642619929/?blackshirt" alt=""
+            height="200";
+            width="200";>
+            <p>Black Shirt</p>
+        </div>
+
+        <div class="products-box">
+            <img src="https://i.pinimg.com/564x/34/d1/61/34d161e63894fd141c6ccfa51ed72531.jpg" alt=""
+            height="200";
+            width="200";>
+            <p>Bohamian Dress</p>
+        </div>
+
+        <div class="products-box">
+            <img src="https://valintaformens.com/cdn/shop/products/photo_2023-03-27_02-27-21.jpg?v=1681723151/?kurta" alt=""
+            height="200";
+            width="200";>
+            <p>kurta</p>
+        </div>
+
+        <div class="products-box">
+            <img src="https://devotedstore.com/cdn/shop/files/15_9b2a06af-e5be-4940-864b-00d68cfb8350.png?v=1714876137/?suede" alt=""
+            height="200";
+            width="200";>
+            <p>Suede</p>
+        </div>
+
+        <div class="products-box">
+            <img src="https://static.zara.net/assets/public/333f/ffac/463b48a7bb67/2d1226edf1bc/00167029701-p/00167029701-p.jpg?ts=1708347972832" alt=""
+            height="200";
+            width="200";>
+            <p>Bikini</p>
+        </div>
+
+        <div class="products-box">
+            <img src="https://www.beyoung.in/blog/wp-content/uploads/2023/01/plain-t-shirt-853x1024.jpg" alt=""
+            height="200";
+            width="200";>
+            <p>Casuals</p>
+        </div>
+
+        <div class="products-box">
+            <img src="https://www.stirlingsports.co.nz/productimages/magnify/1/102030_609596_88256.jpg" alt=""
+            height="200";
+            width="200";>
+            <p>Hoodie</p>
+        </div>
+        </div>
+    </div>
+
+        <!--Footer-->
+
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-box-1">
+                    <h2 class="headingText">Aura Trends</h2>
+                    <p>Displays essential links, contact information, and social media icons at the bottom of the webpage</p>
+                    <div class="footer-icon-container">
+                        <i class="fa-brands fa-instagram" style="color:white;"></i>
+                        <i class="fa-brands fa-whatsapp" style="color:white;"></i>
+                        <i class="fa-brands fa-facebook" style="color:white;"></i> 
+                        <i class="fa-brands fa-pinterest" style="color:white;"></i>
+                    </div>
+                </div>
+            </div>
+            <p>© 2024 Aura Trends.com | Aura Trends Fashion</p>
+        </div>
+    <script src="collection.js"></script>
+</body>
+
+</html>
